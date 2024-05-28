@@ -4,7 +4,7 @@ import 'package:get/get_navigation/src/root/get_material_app.dart';
 import 'package:spice_ex/constants/constants.dart';
 import 'package:spice_ex/views/entrypoint.dart';
 
-Widget defaultHome = const MainScreen();
+Widget defaultHome = MainScreen();
 void main() {
   runApp(const MyApp());
 }
